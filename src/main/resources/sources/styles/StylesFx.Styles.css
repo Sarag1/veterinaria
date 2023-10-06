@@ -1,0 +1,43 @@
+.Btn-Primary {
+    -fx-background-color: transparent;
+    -fx-text-fill: #252525;
+    -fx-border-color: #252525;
+}
+
+.Btn-Primary:hover {
+    -fx-background-color: #252525;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: transparent;
+    -fx-border-radius: 0;
+}
+
+.Btn-Primary:pressed {
+    -fx-background-color: #2a3d45;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: transparent;
+    -fx-border-radius: 0;
+}
+
+.Input {
+    -fx-text-fill: #2a3d45;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent transparent #9B9A97 transparent;
+}
+
+.Input:hover, .Input:pressed, .Input:focused {
+    -fx-text-fill: #2a3d45;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent transparent #529cca transparent;
+}
+
+.ComboInput {
+    -fx-text-fill: #2a3d45;
+    -fx-background-color: transparent;
+    -fx-border-color: #9B9A97;
+}
+
+.ComboInput:hover, .ComboInput:pressed, .ComboInput:focused {
+    -fx-text-fill: #2a3d45;
+    -fx-background-color: transparent;
+    -fx-border-color: #529cca;
+}
